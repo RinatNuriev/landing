@@ -137,7 +137,7 @@ header .top-ball {
   margin-right: 34px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   header {
     width: 100%;
     background: black;
@@ -181,6 +181,7 @@ header .top-ball {
     align-items: center;
     padding-top: initial;
     justify-content: initial;
+    justify-content: center;
     height: 55px;
   }
   .header__content .left-block .main-logo {
@@ -320,7 +321,7 @@ header .top-ball {
   background: rgba(64, 118, 243, 0.462745098);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .main-content {
     margin-top: initial;
     display: initial;
@@ -517,7 +518,7 @@ header .top-ball {
   color: #E4E5EA;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   footer {
     background: black;
     width: 100%;

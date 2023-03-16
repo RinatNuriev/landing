@@ -1,3 +1,5 @@
+$phone: 600px
+    
 *,
 *:before,
 *:after
@@ -113,7 +115,7 @@ header
         .icons>a:nth-child(2)
             margin-right: 34px
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: $phone)
     header
         width: 100%
         background: black
@@ -151,6 +153,7 @@ header
         align-items: center
         padding-top: initial
         justify-content: initial
+        justify-content: center
         height: 55px
         .left-block
             .main-logo
@@ -274,7 +277,7 @@ header
         &:hover
             background: #4076f376
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: $phone)
     .main-content
         margin-top: initial
         display: initial
@@ -440,7 +443,7 @@ header
         line-height: 15px
         text-decoration-line: underline
         color: #E4E5EA
-@media screen and (max-width: 320px)
+@media screen and (max-width: $phone)
     footer
         background: black
         width: 100%
